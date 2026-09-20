@@ -1,0 +1,32 @@
+location_id,district_id,district_name,mandal,village
+L001,D001,Adilabad,Utnoor,Devapur
+L002,D001,Adilabad,Boath,Ghanpur
+L003,D001,Adilabad,Narnoor,Kothapalli
+L004,D002,Bhadradri Kothagudem,Bhadrachalam,Nellipaka
+L005,D002,Bhadradri Kothagudem,Manuguru,Anantharam
+L006,D002,Bhadradri Kothagudem,Kothagudem,Regalla
+L007,D003,Hanumakonda,Atmakur,Chowdapur
+L008,D003,Hanumakonda,Dharmanagar,Mustial
+L009,D004,Hyderabad,Amberpet,Azampura
+L010,D004,Hyderabad,Charminar,Chandrayangutta
+L011,D005,Jagtial,Korutla,Ailapur
+L012,D005,Jagtial,Metpally,Vellulla
+L013,D006,Jangaon,Station Ghanpur,Chilpur
+L014,D006,Jangaon,Jangaon,Pasumamula
+L015,D007,Jayashankar Bhupalpally,Chityal,Venkateshwarlapally
+L016,D007,Jayashankar Bhupalpally,Regonda,Kannaram
+L017,D011,Khammam,Kothagudem,Seetharampuram
+L018,D011,Khammam,Wyra,Gollapadu
+L019,D013,Mahabubabad,Kuravi,Seerole
+L020,D013,Mahabubabad,Bayyaram,Garla
+L021,D018,Mulugu,Eturunagaram,Katapur
+L022,D018,Mulugu,Venkatapur,Narsapur
+L023,D019,Nagarkurnool,Amrabad,Mananur
+L024,D020,Nalgonda,Devarakonda,Chinthapally
+L025,D023,Nizamabad,Armoor,Mendora
+L026,D026,Rangareddy,Shabad,Kesaram
+L027,D027,Sangareddy,Narayankhed,Kondapur
+L028,D028,Siddipet,Husnabad,Pothireddypet
+L029,D030,Vikarabad,Tandur,Kotbaspally
+L030,D032,Warangal,Narsampet,Madhira
+L031,D033,Yadadri Bhuvanagiri,Bhongir,Anantharam

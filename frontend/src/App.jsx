@@ -13,6 +13,8 @@ import SystemSettings from "./pages/SystemSettings";
 import ClaimsList from "./pages/ClaimsList";
 import ClaimDetail from "./pages/ClaimDetail";
 import AIDSS from "./pages/AIDSS";
+import AssistantPage from "./pages/AssistantPage";
+import ReportsPage from "./pages/ReportsPage";
 
 function MainApp() {
   const { user, isAuthenticated, loading, logout } = useAuth();
@@ -151,10 +153,14 @@ function MainApp() {
         return <MapView onNavigate={handleInnerNavigate} />;
       case "/claims":
         return <ClaimsList onNavigate={handleInnerNavigate} />;
+      case "/ai":
+        return <AIDSS onNavigate={handleInnerNavigate} />;
+      case "/assistant":
+        return <AssistantPage />;
+      case "/reports":
+        return <ReportsPage />;
       case "/analytics":
         return <Dashboard />;
-      case "/ai":
-        return <AIDSS />;
       case "/users":
         return role === "admin" ? (
           <UserManagement onNavigate={handleInnerNavigate} />

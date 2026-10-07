@@ -3,6 +3,7 @@ from app.core.base import Base
 from app.core.database import engine, SessionLocal
 from app.core.security import get_password_hash
 from app.models.user import User
+from app.models.claim_history import ClaimHistory
 
 
 def init_db_and_seed_users():

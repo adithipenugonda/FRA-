@@ -4,6 +4,10 @@ from sqlalchemy import text
 
 from app.core.database import engine
 from app.api.routes.claims import router as claims_router
+from app.api.routes.claim_history import router as claim_history_router
+from app.api.routes.documents import router as documents_router
+from app.api.routes.assistant import router as assistant_router
+from app.api.routes.reports import router as reports_router
 from app.api.routes.map import router as map_router
 from app.api.routes.dashboard import router as dashboard_router
 from app.api.routes.auth import router as auth_router
@@ -11,7 +15,6 @@ from app.services.auth_seed import init_db_and_seed_users
 
 # Run table initialization and user seeding
 init_db_and_seed_users()
-
 
 app = FastAPI(
     title="FRA Atlas API",
@@ -29,10 +32,13 @@ app.add_middleware(
 
 
 app.include_router(claims_router)
+app.include_router(claim_history_router)
+app.include_router(documents_router)
+app.include_router(assistant_router)
+app.include_router(reports_router)
 app.include_router(map_router)
 app.include_router(dashboard_router)
 app.include_router(auth_router)
-
 
 
 @app.get("/")

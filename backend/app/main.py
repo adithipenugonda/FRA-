@@ -11,6 +11,7 @@ from app.api.routes.reports import router as reports_router
 from app.api.routes.map import router as map_router
 from app.api.routes.dashboard import router as dashboard_router
 from app.api.routes.auth import router as auth_router
+from app.api.routes.ai import router as ai_router
 from app.services.auth_seed import init_db_and_seed_users
 
 # Run table initialization and user seeding
@@ -39,6 +40,8 @@ app.include_router(reports_router)
 app.include_router(map_router)
 app.include_router(dashboard_router)
 app.include_router(auth_router)
+app.include_router(ai_router)
+
 
 
 @app.get("/")
